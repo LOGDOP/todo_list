@@ -1,0 +1,39 @@
+body {
+    margin: 0 auto;
+}
+
+.back {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background: url(https://www.pexels.com/photo/view-of-street-from-a-glass-window-531880/) center no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    
+}
+
+.todo_box {
+    grid-column: 1 / 3;
+    grid-row: 1 / 6;
+    z-index: 1;
+}
+
+#main_input {
+    display: block;
+    width: 45%;
+    height: 3%;
+    margin-left: 8% ;
+}
+
+.todo_list li {
+    
+    list-style-type: none;
+    padding-left: 5% ;
+    width: 50%;
+    height: 25px;
+    background: antiquewhite ;
+    border: 3px solid rgb(54, 51, 51);
+    border-radius: 60px;
+}
