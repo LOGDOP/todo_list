@@ -41,20 +41,59 @@ background-color: rgb(220, 199, 199);
 opacity: 0.77; 
 }
 
+#main_submit:active {
+    background: black;
+    color: white;
+}
+
 #main_input:focus{
     outline: none;
 }
 
 .todo_list li {
-    
+   
+    display: inline-block;
     list-style-type: none;
-    padding-left: 5% ;
-    width: 50%;
-    height: 25px;
-    background: antiquewhite ;
+    padding-left: 2% ;
+    min-width: 50%;
+    min-height: 5%;
+    max-width: 5%;
+    background: rgb(220, 199, 199) ;
     border: 3px solid rgb(54, 51, 51);
     border-radius: 60px;
+    max-width: 100%;
+    margin-bottom: 1% ;
+    opacity: 0.9;
 }
+
+
+
+.todo_list .delButton {
+    
+    margin-left: 1%;    
+    background: red;
+    border: 1px solid #000;
+    opacity: 0.7;
+    float: right;
+    margin-right: 2%;
+}
+
+.todo_list .doneButton {
+    
+    margin-left: 1%;
+    background: green;
+    border: 1px solid #000;
+    opacity: 0.7;
+    float: right;
+    
+    
+}
+
+.todo_list button:active {
+    background: black;
+    color: white;
+    opacity: 0.7;
+} 
 
 /* Таймер */
 
