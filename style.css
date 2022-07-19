@@ -12,6 +12,7 @@ body {
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
     
+    
 }
 /* Основной список  */
 .todo_box {
@@ -68,6 +69,8 @@ opacity: 0.77;
 
 
 
+
+
 .todo_list .delButton {
     
     margin-left: 1%;    
@@ -96,10 +99,19 @@ opacity: 0.77;
 } 
 
 /* Таймер */
+.timer .timer_text {
+    position: absolute;
+    top: 72%;
+    left: 63%;
+    font: 3rem "Roboto";
+}
+
 
 .timer {
     grid-column: 4 / 6;
     grid-row: 5;
+    
+    
 }
 
 .timer div {
